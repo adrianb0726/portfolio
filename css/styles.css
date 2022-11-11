@@ -1,11 +1,44 @@
 .my_picture {
     width: 400px;
-
+    border-radius: 30px;
 
 }
 
 body{
-    background-color: #20B2AA;
-    color:whitesmoke;
+    background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    cursor: url(/Users/adrian.burke/portfolio/images/rocket.png),auto;
 
 }
+
+.page_content{
+    text-align: center;
+    width: 80%;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+
+}
+
+h1{
+    text-align: center;
+    color: #FFFAFA;
+    font-family: Verdana;
+}
+
+hr{
+    height: 2px;
+    background-color: beige;
+    border-color: beige;
+
+}
+
+.projects{
+  text-align: center;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
